@@ -1,0 +1,12 @@
+*.class
+*.txt
+/target
+.settings/org.eclipse.m2e.core.prefs
+.project
+.settings/org.eclipse.jdt.apt.core.prefs
+.settings/org.eclipse.core.resources.prefs
+.factorypath
+.classpath
+.settings/org.eclipse.jdt.core.prefs
+*.JSON
+*.json
