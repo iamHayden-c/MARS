@@ -33,6 +33,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 * **Hayden Cardoza** - *Initial work* - [DozerFiles](https://github.com/DozerFiles)
 * **Marc Berry** - *Initial work* - [CtrlAltMarc](https://github.com/CtrlAltMarc)
+* **Colton Kelsey** - *Initial work* - [CKelsey95](https://github.com/CKelsey95)
 
 ## License
 
