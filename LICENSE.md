@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) [2020] [Hayden Cardoza] [Marc Berry]
+Copyright (c) [2020] [Hayden Cardoza] [Marc Berry] [Colton Kelsey]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
