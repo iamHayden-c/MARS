@@ -43,6 +43,12 @@
 				<activatedProperties>hayden</activatedProperties>
 			</properties>
 		</profile>
+		<profile>
+			<id>marc</id>
+			<properties>
+				<activatedProperties>marc</activatedProperties>
+			</properties>
+		</profile>
 	</profiles>
 	<build>
 		<plugins>
