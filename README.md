@@ -6,14 +6,6 @@ Beginner Spring boot project engineered by a few coders with the intent to use t
 
 This is a standard java spring mavne project so you will need to have those installed and ready to go before this project is pulled
 
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
 ## Running the tests
 
 TODO: We will be implementing unit and integration tests at a later date
