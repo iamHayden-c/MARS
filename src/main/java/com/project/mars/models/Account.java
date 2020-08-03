@@ -6,6 +6,8 @@
 
 public class Account{
 
+
+          // generated unique Identifier for account, relationship with User model//
         @Id
         @ManyToMany(targetEntity = User.class,cascade = CascadeType.ALL)
         @GeneratedValue (strategy = GenerationType.IDENTITY)
