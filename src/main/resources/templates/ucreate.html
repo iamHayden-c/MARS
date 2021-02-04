@@ -2,28 +2,20 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="../static/css/style.css">
-<link rel="stylesheet" type="text/css" href="../static/css/bootstrap-reboot.min.css">
+<link rel="stylesheet" type="text/css" href="/static/css/style.css">
+<link rel="stylesheet" type="text/css" href="/static/css/bootstrap-reboot.min.css">
 </head>
+
 <body>
   
 <h2>Sign up Form</h2>
 
-<form action="/action_page.php" method="post">
+<form name="submitNewUser">
   <div class="imgcontainer">
     <img src="img_avatar2.png" alt="Stock Image" class="avatar">
   </div>
 
   <div class="container">
-
-    <label for="fname"><b>First name</b></label>
-    <input type="text" placeholder="Enter your first name" name="fname" required>
-    
-    <label for="lname"><b>Last name</b></label>
-    <input type="text" placeholder="Enter your last name" name="lname" required>
-
-    <label for="email"><b>Email address</b></label>
-    <input type="text" placeholder="Enter your preferred email address" name="email" required>
 
     <label for="uname"><b>Username</b></label>
     <input type="text" placeholder="Enter a username" name="uname" required>
@@ -31,7 +23,7 @@
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter a secure password" name="psw" required>
         
-    <button type="submit">Create Account</button>
+    <button type="submit" name="submitUserForm">Create Account</button>
   </div>
 
   <div class="container" style="background-color:#f1f1f1">
@@ -39,4 +31,22 @@
   </div>
 </form>
 </body>
+<script>src="/static/js/jquery.js"</script>
+<script>
+  $(document).ready(function(){
+        // click on button submit
+        $("#submitUserForm").on('click', function(){
+            // send ajax
+            var formData = JSON.stringify($("#submitNewUser").serializeArray());
+            $.ajax({
+                type: "POST",
+                url: "/postuser",
+                data: formData,
+                success: function(){console.log(formData);console.log("success")},
+                dataType: "json",
+                contentType : "application/json"
+            })
+        });
+    });
+</script>
 </html>
