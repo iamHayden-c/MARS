@@ -1,10 +1,10 @@
 # SpringMvnProject
-Beginner Spring boot project engineered by a few coders with the intent to use this repo as an academic playground to better familiarize ourselves with the tools and techniques used in Jav Spring and whatever else peaks our interest.
+Beginner Spring boot project engineered by a few coders with the intent to use this repo as an academic playground to better familiarize ourselves with the tools and techniques used in Java Spring and whatever else peaks our interest.
 
 
 ## Getting Started
 
-This is a standard java spring mavne project so you will need to have those installed and ready to go before this project is pulled
+This is a standard java spring maven project so you will need to have those installed and ready to go before this project is pulled
 
 ## Running the tests
 
