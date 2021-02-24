@@ -1,6 +1,7 @@
 *.class
 *.txt
 /target
+/frontend/node_modules
 .settings/org.eclipse.m2e.core.prefs
 .project
 .settings/org.eclipse.jdt.apt.core.prefs
@@ -10,3 +11,5 @@
 .settings/org.eclipse.jdt.core.prefs
 *.JSON
 *.json
+src/main/frontend/node/**
+src/main/frontend/node_modules/**
